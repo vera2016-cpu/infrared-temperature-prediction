@@ -35,6 +35,12 @@ The chart compares the model's predicted oral temperature values with the actual
 
 ![Actual vs Predicted Oral Temperature](images/actual_vs_predicted.png)
 
+## Residual Analysis
+
+Residual analysis helps assess whether the model's prediction errors are randomly distributed around zero.
+
+![Residual Analysis](images/residual_analysis.png)
+
 ## Problem Statement
 
 Traditional oral temperature measurement requires direct contact with the individual and may not always be convenient in situations where rapid or contactless screening is desirable.
