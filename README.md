@@ -118,6 +118,47 @@ The most influential features included:
 
 These results suggest that facial infrared temperature measurements provide important information for estimating oral temperature.
 
+## Methodology
+
+The project followed an end-to-end machine learning workflow:
+
+1. **Data Understanding**
+   - Inspected the dataset structure, data types, target variable, and feature distributions.
+   - Identified missing values and potential data-quality issues.
+
+2. **Data Cleaning & Preprocessing**
+   - Cleaned the dataset and prepared the features for modelling.
+   - Handled categorical and numerical features separately.
+   - Used preprocessing techniques to transform the input features into a format suitable for machine learning.
+
+3. **Exploratory Data Analysis**
+   - Examined relationships between infrared temperature measurements and oral temperature.
+   - Analyzed feature distributions and correlations.
+   - Investigated important predictors of the target variable.
+
+4. **Feature Engineering**
+   - Prepared numerical and categorical features for model training.
+   - Applied appropriate transformations and encoding through a preprocessing pipeline.
+
+5. **Model Development**
+   - Trained and compared machine learning models.
+   - Evaluated model performance using MAE, RMSE, and R².
+   - Selected the final model based on validation performance.
+
+6. **Model Validation**
+   - Evaluated the final model on a held-out test set.
+   - Used 5-fold cross-validation to assess model stability and generalization.
+
+7. **Feature Importance Analysis**
+   - Examined feature importance to identify the infrared measurements that contributed most to oral temperature predictions.
+
+8. **Deployment**
+   - Saved the trained model and preprocessing pipeline using Joblib.
+   - Built a Streamlit application for interactive oral temperature prediction.
+
+9. **Documentation & Visualization**
+   - Added model evaluation visualizations, including feature importance, actual-vs-predicted values, and residual analysis.
+
 ## Streamlit Application
 
 A Streamlit web application was developed to allow users to enter infrared temperature measurements and demographic information and receive an estimated oral temperature.
