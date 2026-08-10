@@ -19,6 +19,10 @@ The project covers the complete machine learning workflow, including:
 - Model validation
 - Model deployment with Streamlit
 
+## Application Preview
+
+![Streamlit Temperature Prediction App](images/streamlit_prediction.png)
+
 ## Problem Statement
 
 Traditional oral temperature measurement requires direct contact with the individual and may not always be convenient in situations where rapid or contactless screening is desirable.
