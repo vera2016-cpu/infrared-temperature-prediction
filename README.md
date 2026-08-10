@@ -23,6 +23,12 @@ The project covers the complete machine learning workflow, including:
 
 ![Streamlit Temperature Prediction App](images/streamlit_prediction.png)
 
+## Feature Importance
+
+The model identified infrared temperature measurements as the most influential features for predicting oral temperature.
+
+![Feature Importance](images/feature_importance.png)
+
 ## Problem Statement
 
 Traditional oral temperature measurement requires direct contact with the individual and may not always be convenient in situations where rapid or contactless screening is desirable.
