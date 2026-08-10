@@ -116,16 +116,22 @@ The application uses the saved machine learning pipeline:
 
 ## How to Run the Application
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repository-url>
-cd Infrared-Temperature-Prediction
+git clone https://github.com/vera2016-cpu/infrared-temperature-prediction.git
+cd infrared-temperature-prediction
 
+# Create and Activate a Virtual Environment
+# Windows
 python -m venv .venv
-
 .venv\Scripts\activate
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
 
+# Install Dependencies
 pip install -r requirements.txt
 
+# Run the Streamlit Application
 streamlit run app/app.py
